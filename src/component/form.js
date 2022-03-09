@@ -52,7 +52,7 @@ function Form() {
     return (
         <div  className="w-screen h-screen bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col items-center">
 
-            <div className='mt-60 h-28 w-96 rounded-xl bg-yellow-500 flex justify-center   shadow-2xl shadow-slate-600'>
+            <div className='mt-60 h-28 w-96 rounded-xl bg-white flex justify-center   shadow-2xl shadow-slate-600'>
                 <div className='mt-4'>
                     <h2 className='font-bold flex justify-center text-lg'>TO DO LIST</h2>
                     <form onSubmit={update.action ? (e)=> handleDataupdate(e, update.id) : (e) => handleSubmit(e)}>
