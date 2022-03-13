@@ -29,8 +29,8 @@ function ListItems({ todos, setTodos, getDataUpdate }) {
               </div>
             
             <div>
-                <button className='ml-4  bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text font-bold' onClick={(e) => getDataUpdate(e, list)}>Update</button>{" "}
-                <button className='ml-4  bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg bg-clip-text font-bold' onClick={(e) => handleDelete(e, index)}>Delete</button>
+                <button className='ml-4 text-cyan-500 font-bold' onClick={(e) => getDataUpdate(e, list)}>Update</button>{" "}
+                <button className='ml-4 text-cyan-500 font-bold' onClick={(e) => handleDelete(e, index)}>Delete</button>
             </div>
           </li>
         ))}
