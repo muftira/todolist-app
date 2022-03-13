@@ -20,11 +20,11 @@ function ListItems({ todos, setTodos, getDataUpdate }) {
   // };
   
   return (
-    <div className=" w-96 h-26 bg-white flex justify-center rounded-lg shadow-2xl shadow-slate-800">
+    <div className="md:w-96 md:h-26 w-72 h-26 bg-white flex justify-center rounded-lg shadow-2xl shadow-slate-800">
       <ul>
         {todos.map((list, index) => (
           <li className="flex items-center ">
-              <div className="w-52 h-9 flex items-center">
+              <div className="md:w-52 md:h-9 w-28 h-9 flex items-center">
               {list.text}{" "}
               </div>
             
