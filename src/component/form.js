@@ -78,7 +78,7 @@ function Form() {
               <button className="h-9 - w-20 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold ">
                 {update.action ? "Update" : "Add"}
               </button>
-              {update.action ? <button className="h-9 - w-20 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold "
+              {update.action ? <button className="h-9 - w-20 rounded-md ml-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold "
               onClick={() => handleCancel()}
               >
                 Cancel
