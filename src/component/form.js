@@ -57,7 +57,7 @@ function Form() {
 
   return (
     <div className="w-screen h-screen bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col items-center">
-      <div className="mt-60 md:h-36 md:w-96 h-28 w-72 rounded-xl bg-white flex justify-center   shadow-2xl shadow-slate-600">
+      <div className="mt-60 md:h-36 md:w-96 h-36 w-72 rounded-xl bg-white flex justify-center   shadow-2xl shadow-slate-600">
         <div className="mt-4">
           <h2 className="font-bold flex justify-center text-lg">TO DO LIST</h2>
           <form
@@ -75,10 +75,10 @@ function Form() {
               value={input}
             />
             <div className="flex justify-center items-start mt-2">
-              <button className="ml-4 h-9 - w-20 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold ">
+              <button className="h-9 - w-20 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold ">
                 {update.action ? "Update" : "Add"}
               </button>
-              {update.action ? <button className="ml-4 h-9 - w-20 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold "
+              {update.action ? <button className="h-9 - w-20 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold "
               onClick={() => handleCancel()}
               >
                 Cancel
